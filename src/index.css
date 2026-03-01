@@ -1,0 +1,13 @@
+/* RankIA Sidebar */
+.components-panel__body .rankia-section {
+  margin-bottom: 12px;
+}
+
+.rankia-score-bar {
+  margin-bottom: 8px;
+}
+
+/* Garantir que o modal do RankIA tenha z-index correto */
+.components-modal__frame {
+  max-width: 640px;
+}
