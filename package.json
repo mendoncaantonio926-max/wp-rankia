@@ -1,0 +1,20 @@
+{
+  "name": "wp-rankia",
+  "version": "1.0.0",
+  "description": "RankIA SEO Optimizer for WordPress",
+  "scripts": {
+    "build": "wp-scripts build src/sidebar/index.js --output-path=build",
+    "start": "wp-scripts start src/sidebar/index.js --output-path=build"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  },
+  "dependencies": {
+    "@wordpress/components": "*",
+    "@wordpress/data": "*",
+    "@wordpress/element": "*",
+    "@wordpress/i18n": "*",
+    "@wordpress/plugins": "*",
+    "@wordpress/edit-post": "*"
+  }
+}
